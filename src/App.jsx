@@ -1,9 +1,12 @@
 import styles from './App.module.css'
+import DescriptionService from './components/DescriptionService/DescriptionService'
+import Form from './components/Form/Form'
 
 function App() {
   return (
-    <div>
-      Intro component with sign-up form challenge hub
+    <div className={styles.container}>
+      <DescriptionService  />
+      <Form />
     </div>
   )
 }

@@ -1,19 +1,19 @@
 :root {
 	--color-pink: #ff7979;
 	--color-green: #38cc8b;
-	--color-purple: #38cc8b;
-	--color-dark: #38cc8b;
+	--color-purple: #5e54a4;
+	--color-dark: #3d3b48;
 	--color-white: #fff;
 }
 
 body {
 	font-family: 'Poppins', sans-serif;
 	background-image: url(./images/bg-intro-mobile.png),
-		linear-gradient(to top, rgba(255, 121, 121, 0.8), rgba(255, 121, 121, 0.8));
+		linear-gradient(to top, rgba(255, 121, 121, 0.9), rgba(255, 121, 121, 0.9));
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
-	height: 100vh;
+	background-position: top center;
+	/* height: 100vh; */
 	color: var(--color-white);
 }
 
@@ -22,4 +22,12 @@ body {
 		background-image: url(./images/bg-intro-desktop.png),
 			linear-gradient(to top, rgba(255, 121, 121, 0.8), rgba(255, 121, 121, 0.8));
 	}
+}
+
+.container {
+	padding-block: 5.5rem 4.25rem;
+	padding-inline: 1.5rem;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }

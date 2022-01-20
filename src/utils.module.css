@@ -1,0 +1,11 @@
+.my_small {
+	margin-block-end: 1rem;
+}
+
+.my_medium {
+	margin-block-end: 1.5rem;
+}
+
+.my_large {
+	margin-block-end: 4rem;
+}

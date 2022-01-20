@@ -1,0 +1,39 @@
+.form {
+	background-color: var(--color-white);
+	border-radius: 0.625rem;
+	padding: 24px;
+	box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+}
+
+.button {
+	padding-block: 15px;
+	width: 100%;
+	border: none;
+	background-color: var(--color-green);
+	color: var(--color-white);
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.terms {
+	width: 90%;
+	margin: auto;
+}
+.text {
+	color: #bab7d4;
+	text-align: center;
+	font-size: 0.6875rem;
+	line-height: 21px;
+	font-weight: 500;
+}
+
+.text_span {
+	color: var(--color-pink);
+}
