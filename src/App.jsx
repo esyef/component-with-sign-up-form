@@ -1,4 +1,4 @@
-import styles from './App.module.css'
+import styles from './styles.module.css'
 import DescriptionService from './components/DescriptionService/DescriptionService'
 import Form from './components/Form/Form'
 

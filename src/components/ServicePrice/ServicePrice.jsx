@@ -1,5 +1,3 @@
-
-
 const ServicePrice = () => {
 	return (
 		<section >
