@@ -1,13 +1,10 @@
-import styles from './DescriptionService.module.css'
-import base from '../../utils.module.css'
-
 const DescriptionService = () => {
 	return (
-		<article className={`${styles.service} ${base.my_large}`}>
-			<div className={base.my_small}>
-				<h1 className={styles.title}> Learn to code by watching others </h1>
+		<article>
+			<div>
+				<h1> Learn to code by watching others </h1>
 			</div>
-			<div className={styles.text}>
+			<div>
 				See how experienced developers solve problems in real-time. Watching
 				scripted tutorials is great, but understanding how developers think is
 				invaluable.
