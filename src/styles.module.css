@@ -1,33 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
 :root {
+	/* === colores === */
 	--color-pink: #ff7979;
 	--color-green: #38cc8b;
 	--color-purple: #5e54a4;
 	--color-dark: #3d3b48;
 	--color-white: #fff;
-}
 
-body {
-	font-family: 'Poppins', sans-serif;
-	background-image: url(./images/bg-intro-mobile.png),
-		linear-gradient(to top, rgba(255, 121, 121, 0.9), rgba(255, 121, 121, 0.9));
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-	/* height: 100vh; */
-	color: var(--color-white);
-}
+	/* === margenes === */
+	--m-8px: 0.5rem;
+	--m-11px: 0.6875rem;
+	--m-16px: 1rem;
+	--m-24px: 1.5rem;
+	--m-20px: 1.25rem;
+	--m-64px: 4rem;
 
-@media screen and (min-width: 760px) {
-	body {
-		background-image: url(./images/bg-intro-desktop.png),
-			linear-gradient(to top, rgba(255, 121, 121, 0.8), rgba(255, 121, 121, 0.8));
-	}
-}
+	/* === Fuente === */
+	--poppins: 'Poppins', sans-serif;
 
-.container {
-	padding-block: 5.5rem 4.25rem;
-	padding-inline: 1.5rem;
+	/* === heigth === */
+	--lh-26px: 1.625rem;
+	--lh-36px: 2.25rem;
+	--lh-55px: 3.4375rem;
 
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	/* === Tamaño fuentes === */
+	--fz-11px: 11px;
+	--fz-14px: 14px;
+	--fz-15px: 15px;
+	--fz-16px: 16px;
+	--fz-28px: 28px;
+	--fz-50px: 50px;
+
+	/* === Peso fuentes === */
+	--fw--500: 400;
+	--fw--500: 500;
+	--fw--600: 600;
+	--fw--700: 700;
+
+	/* === espacio letras === */
+	--ls-0-25px: 0.25px;
+	--ls-0-27px: 0.27px;
+	--ls-0-29px: -0.29px;
+	--ls-0-52px: -0.52px;
 }
