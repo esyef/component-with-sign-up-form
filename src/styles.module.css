@@ -165,6 +165,7 @@ body {
 	padding: 24px;
 }
 
+.input_error,
 .inputs {
 	display: block;
 	margin-bottom: var(--m-16px);
@@ -176,6 +177,21 @@ body {
 	color: #3d3b48;
 	font-size: var(--fs-14px);
 	font-weight: var(--fw--600);
+	outline: none;
+
+	transition: border 300ms linear;
+}
+
+.inputs:focus {
+	border: 1px solid var(--color-purple);
+}
+
+.input_error {
+	background-image: url(./images/icon-error.svg);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	border: 1px solid var(--color-pink);
+	margin-bottom: 6px;
 }
 
 .inputs::placeholder {
@@ -197,11 +213,6 @@ body {
 	transition: background 300ms linear;
 }
 
-.button:hover {
-	cursor: pointer;
-	background-color: #77e2b3;
-}
-
 @media screen and (min-width: 765px) {
 	.form {
 		padding: 40px;
@@ -213,7 +224,7 @@ body {
 	}
 }
 
-.form p {
+.form .terminos_condiciones {
 	font-weight: var(--fw--500);
 	font-size: var(--fs-11px);
 	text-align: center;
@@ -226,4 +237,18 @@ body {
 .form span {
 	color: var(--color-pink);
 	font-weight: var(--fw--700);
+}
+
+/* === MENSAJE ERROR === */
+
+.msg_error {
+	color: var(--color-pink);
+	font-weight: var(--fw--500);
+	font-size: var(--fs-11px);
+	line-height: 16.5px;
+	text-align: right;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 19px;
+	font-style: italic;
 }
